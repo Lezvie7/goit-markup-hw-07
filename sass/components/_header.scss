@@ -1,0 +1,69 @@
+.button-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.contacts-header {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.header-studio {
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: var(--main-color);
+  transition: color var(--transition-dur-and-func);
+}
+
+.header-studio:hover,
+.header-studio:focus {
+  color: var(--current-color);
+}
+/* Hover Focus Studio Heafer */
+
+.header-border {
+  border-bottom: 1px solid var(--header-border);
+}
+
+.header-web {
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: var(--current-color);
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--secondary-color);
+  letter-spacing: 0.02em;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  /* padding для кликабельности */
+  fill: currentColor;
+  transition: color var(--transition-dur-and-func);
+}
+
+.header-info:hover,
+.header-info:focus {
+  color: var(--current-color);
+}
+
+.header-info-icon {
+  margin-right: 10px;
+}

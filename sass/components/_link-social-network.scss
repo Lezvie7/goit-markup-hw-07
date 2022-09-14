@@ -1,0 +1,17 @@
+.link-social-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: var(--main-light-color);
+  color: var(--icon-social-network);
+  transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
+}
+
+.cards-social-network {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}

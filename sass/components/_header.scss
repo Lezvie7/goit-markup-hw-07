@@ -105,10 +105,10 @@
   color: var(--current-color);
 }
 
-// .link:hover,
-// .link:focus {
-//   background-color: var(--current-color);
-//   color: var(--current-color);
+.link:hover,
+.link:focus {
+  background-color: var(--current-color);
+  color: var(--current-color);
 
-//   background-color: var(--main-light-color);
-// }
+  background-color: var(--main-light-color);
+}

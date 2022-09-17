@@ -207,6 +207,11 @@ li {
   border-radius: 2px;
 }
 
+.current-studio,
+.current-portfolio {
+  color: var(--current-color);
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -781,11 +786,6 @@ li {
   line-height: 1.2;
   letter-spacing: 0.01em;
   color: var(--secondary-color);
-}
-
-.current-studio,
-.current-portfolio {
-  color: var(--current-color);
 }
 
 .button-box {

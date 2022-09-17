@@ -100,6 +100,11 @@
   border-radius: 2px;
 }
 
+.current-studio,
+.current-portfolio {
+  color: var(--current-color);
+}
+
 // .link:hover,
 // .link:focus {
 //   background-color: var(--current-color);

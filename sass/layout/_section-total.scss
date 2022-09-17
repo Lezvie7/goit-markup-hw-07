@@ -1,15 +1,15 @@
-.section-title-work {
+.projects__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.title-work-box {
+.projects-item {
   position: relative;
 }
 
-.thumb-description {
+.projects__text {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -135,13 +135,10 @@ li {
   color: var(--main-color);
   transition: color var(--transition-dur-and-func);
 }
-
-.header-studio:hover,
-.header-studio:focus {
+.header-studio:hover, .header-studio:focus {
   color: var(--current-color);
 }
 
-/* Hover Focus Studio Heafer */
 .header-border {
   border-bottom: 1px solid var(--header-border);
 }
@@ -171,9 +168,7 @@ li {
   fill: currentColor;
   transition: color var(--transition-dur-and-func);
 }
-
-.header-info:hover,
-.header-info:focus {
+.header-info:hover, .header-info:focus {
   color: var(--current-color);
 }
 
@@ -261,9 +256,7 @@ li {
   border: none;
   transition: var(--transition-dur-and-func);
 }
-
-.hero-button:hover,
-.hero-button:focus {
+.hero-button:hover, .hero-button:focus {
   background-color: var(--button-hero-bg-color);
   box-shadow: 0px 4px 4px var(--hero-shadow-button-color);
   border-radius: 4px;
@@ -392,6 +385,10 @@ li {
   color: var(--icon-social-network);
   transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
 }
+.link-social-network:hover, .link-social-network:focus {
+  background-color: var(--current-color);
+  color: var(--main-light-color);
+}
 
 .cards-social-network {
   display: flex;
@@ -418,9 +415,7 @@ li {
   background-color: var(--footer-social-list);
   transition: background-color var(--transition-dur-and-func);
 }
-
-.footer-social-list:hover,
-.footer-social-list:focus {
+.footer-social-list:hover, .footer-social-list:focus {
   background-color: var(--current-color);
 }
 
@@ -431,13 +426,6 @@ li {
 }
 
 /* Hover footer address  */
-.footer-info:hover,
-.footer-info:focus,
-.link-address:hover,
-.link-address:focus {
-  color: var(--current-color);
-}
-
 /* =============Footer Form============= */
 .box-footer-submit {
   margin-left: auto;
@@ -465,12 +453,6 @@ li {
   margin-bottom: 20px;
 }
 
-.link-social-network:hover,
-.link-social-network:focus {
-  background-color: var(--current-color);
-  color: var(--main-light-color);
-}
-
 .link-icom-company {
   display: flex;
   justify-content: center;
@@ -490,9 +472,7 @@ li {
   color: var(--icon-social-network);
   transition: color var(--transition-dur-and-func), border-color var(--transition-dur-and-func);
 }
-
-.box-section-company:hover,
-.box-section-company:focus {
+.box-section-company:hover, .box-section-company:focus {
   color: var(--current-color);
   border-color: var(--current-color);
 }
@@ -520,6 +500,9 @@ li {
   font-family: "Raleway", sans-serif;
   transition: color var(--transition-dur-and-func);
 }
+.footer-studio:hover, .footer-studio:focus {
+  color: var(--current-color);
+}
 
 .footer {
   background: var(--footer-color);
@@ -534,6 +517,9 @@ li {
   font-style: normal;
   transition: color var(--transition-dur-and-func);
 }
+.footer-info:hover, .footer-info:focus {
+  color: var(--current-color);
+}
 
 .footer-item {
   margin-bottom: 9px;
@@ -547,35 +533,6 @@ li {
   color: var(--main-light-color);
   margin-bottom: 20px;
   display: block;
-}
-
-.footer-studio:hover,
-.footer-studio:focus {
-  color: var(--current-color);
-}
-
-.contact-form-input:hover,
-.contact-form-input:focus,
-.footer-submit:focus {
-  outline: none;
-  border-color: var(--current-color);
-}
-
-.contact-form-btn:hover,
-.contact-form-btn:focus,
-.footer-submit-btn:hover,
-.footer-submit-btn:focus {
-  background-color: var(--button-hero-bg-color);
-  box-shadow: 0px 4px 4px var(--hero-shadow-button-color);
-  border-radius: 4px;
-}
-
-.footer-submit {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
 }
 
 .footer-submit {
@@ -594,6 +551,10 @@ li {
   transition-property: border-color;
   transition: var(--transition-dur-and-func);
 }
+.footer-submit:focus {
+  outline: none;
+  border-color: var(--current-color);
+}
 
 .footer-submit-btn {
   display: flex;
@@ -609,6 +570,11 @@ li {
   color: var(--main-light-color);
   border-radius: 4px;
   transition: var(--transition-dur-and-func);
+}
+.footer-submit-btn:hover, .footer-submit-btn:focus {
+  background-color: var(--button-hero-bg-color);
+  box-shadow: 0px 4px 4px var(--hero-shadow-button-color);
+  border-radius: 4px;
 }
 
 .footer-submit-btn-icon {
@@ -632,6 +598,9 @@ li {
   line-height: 1.7;
   transition: color var(--transition-dur-and-func);
 }
+.link-address:hover, .link-address:focus {
+  color: var(--current-color);
+}
 
 .button {
   border: none;
@@ -643,9 +612,7 @@ li {
   letter-spacing: 0.03em;
   background-color: var(--main-light-color);
 }
-
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: var(--current-color);
   color: var(--main-light-color);
   box-shadow: 0px 1px 1px var(--shadow-cards-gallery-12), 0px 4px 4px var(--shadow-cards-gallery-06), 1px 4px 6px var(--shadow-cards-gallery-16);
@@ -687,9 +654,7 @@ li {
   background-color: transparent;
   transition: var(--transition-dur-and-func);
 }
-
-.modal-close-btn:hover,
-.modal-close-btn:focus {
+.modal-close-btn:hover, .modal-close-btn:focus {
   fill: var(--current-color);
 }
 
@@ -719,6 +684,9 @@ li {
   transform: translateY(-50%);
   transition: var(--transition-dur-and-func);
 }
+.contact-form-input:hover + .modal-form-input-icon, .contact-form-input:focus + .modal-form-input-icon {
+  fill: var(--current-color);
+}
 
 .form-checkbox-icon {
   width: 16px;
@@ -741,7 +709,7 @@ li {
   border: var(--current-color);
 }
 
-.contact-form-check:checked + .form-checkbox-icon > .form-checkbox-won-icon {
+.contact-form-check:checked + .form-checkbox-icon .form-checkbox-won-icon {
   display: block;
 }
 
@@ -770,10 +738,9 @@ li {
   padding-left: 42px;
   transition: var(--transition-dur-and-func);
 }
-
-.contact-form-input:hover + .modal-form-input-icon,
-.contact-form-input:focus + .modal-form-input-icon {
-  fill: var(--current-color);
+.contact-form-input:hover, .contact-form-input:focus {
+  outline: none;
+  border-color: var(--current-color);
 }
 
 .contact-form-massage {
@@ -785,17 +752,13 @@ li {
   border-radius: 4px;
   transition: var(--transition-dur-and-func);
 }
-
 .contact-form-massage::placeholder {
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.01em;
   color: var(--form-massage-placeholder);
 }
-
-/* .contact-form-massage:hover, */
-.contact-form-massage:focus,
-.contact-form-massage:hover {
+.contact-form-massage:focus, .contact-form-massage:hover {
   outline: none;
   border-color: var(--current-color);
 }
@@ -811,6 +774,11 @@ li {
   border-radius: 4px;
   padding: 10px 52px;
   transition: var(--transition-dur-and-func);
+}
+.contact-form-btn:hover, .contact-form-btn:focus {
+  background-color: var(--button-hero-bg-color);
+  box-shadow: 0px 4px 4px var(--hero-shadow-button-color);
+  border-radius: 4px;
 }
 
 .box-contact-form {
@@ -860,6 +828,11 @@ li {
   border-top: none;
 }
 
+.portfolio-box {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .gallery-link:hover,
 .gallery-link:focus {
   display: block;
@@ -896,8 +869,6 @@ li {
   transform: translateY(0%);
 }
 
-/* Overley карточки портфолио */
-/* Текст кнопок */
 .gallery-text {
   font-weight: 500;
   font-size: 16px;
@@ -917,9 +888,4 @@ li {
   font-size: 16px;
   line-height: 1.8;
   color: var(--secondary-color);
-}
-
-.portfolio-box {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }/*# sourceMappingURL=main.css.map */

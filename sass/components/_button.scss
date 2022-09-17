@@ -7,12 +7,12 @@
   line-height: 1.6;
   letter-spacing: 0.03em;
   background-color: var(--main-light-color);
-}
 
-.button:hover,
-.button:focus {
-  background-color: var(--current-color);
-  color: var(--main-light-color);
-  box-shadow: 0px 1px 1px var(--shadow-cards-gallery-12), 0px 4px 4px var(--shadow-cards-gallery-06),
-    1px 4px 6px var(--shadow-cards-gallery-16);
+  &:hover,
+  &:focus {
+    background-color: var(--current-color);
+    color: var(--main-light-color);
+    box-shadow: 0px 1px 1px var(--shadow-cards-gallery-12),
+      0px 4px 4px var(--shadow-cards-gallery-06), 1px 4px 6px var(--shadow-cards-gallery-16);
+  }
 }

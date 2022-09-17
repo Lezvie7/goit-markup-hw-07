@@ -16,12 +16,12 @@
   border-radius: 4px;
   color: var(--icon-social-network);
   transition: color var(--transition-dur-and-func), border-color var(--transition-dur-and-func);
-}
 
-.box-section-company:hover,
-.box-section-company:focus {
-  color: var(--current-color);
-  border-color: var(--current-color);
+  &:hover,
+  &:focus {
+    color: var(--current-color);
+    border-color: var(--current-color);
+  }
 }
 
 .icom-company {

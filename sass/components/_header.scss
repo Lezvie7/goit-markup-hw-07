@@ -21,13 +21,12 @@
   font-family: 'Raleway', sans-serif;
   color: var(--main-color);
   transition: color var(--transition-dur-and-func);
-}
 
-.header-studio:hover,
-.header-studio:focus {
-  color: var(--current-color);
+  &:hover,
+  &:focus {
+    color: var(--current-color);
+  }
 }
-/* Hover Focus Studio Heafer */
 
 .header-border {
   border-bottom: 1px solid var(--header-border);
@@ -57,11 +56,11 @@
   /* padding для кликабельности */
   fill: currentColor;
   transition: color var(--transition-dur-and-func);
-}
 
-.header-info:hover,
-.header-info:focus {
-  color: var(--current-color);
+  &:hover,
+  &:focus {
+    color: var(--current-color);
+  }
 }
 
 .header-info-icon {

@@ -27,6 +27,7 @@
     ),
     url(../images/hero-section.jpg);
 }
+
 .hero-button {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -42,11 +43,11 @@
   padding: 10px 32px;
   border: none;
   transition: var(--transition-dur-and-func);
-}
 
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--button-hero-bg-color);
-  box-shadow: 0px 4px 4px var(--hero-shadow-button-color);
-  border-radius: 4px;
+  &:hover,
+  &:focus {
+    background-color: var(--button-hero-bg-color);
+    box-shadow: 0px 4px 4px var(--hero-shadow-button-color);
+    border-radius: 4px;
+  }
 }

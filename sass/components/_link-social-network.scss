@@ -8,6 +8,12 @@
   background-color: var(--main-light-color);
   color: var(--icon-social-network);
   transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    background-color: var(--current-color);
+    color: var(--main-light-color);
+  }
 }
 
 .cards-social-network {
@@ -34,11 +40,11 @@
   border-radius: 50%;
   background-color: var(--footer-social-list);
   transition: background-color var(--transition-dur-and-func);
-}
 
-.footer-social-list:hover,
-.footer-social-list:focus {
-  background-color: var(--current-color);
+  &:hover,
+  &:focus {
+    background-color: var(--current-color);
+  }
 }
 
 .footer-icon-social {
@@ -48,13 +54,6 @@
 }
 
 /* Hover footer address  */
-
-.footer-info:hover,
-.footer-info:focus,
-.link-address:hover,
-.link-address:focus {
-  color: var(--current-color);
-}
 
 /* =============Footer Form============= */
 
@@ -82,10 +81,4 @@
 .contact-form-field-comment {
   display: block;
   margin-bottom: 20px;
-}
-
-.link-social-network:hover,
-.link-social-network:focus {
-  background-color: var(--current-color);
-  color: var(--main-light-color);
 }

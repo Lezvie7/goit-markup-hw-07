@@ -80,7 +80,16 @@
   padding-bottom: 32px;
   /* padding для кликабельности */
   transition: color var(--transition-dur-and-func);
+  
+&:hover,
+&:focus {
+  background-color: var(--current-color);
+  color: var(--current-color);
+
+  background-color: var(--main-light-color);
 }
+}
+
 
 .contacts-header .item + .item {
   margin-left: 50px;
@@ -105,10 +114,7 @@
   color: var(--current-color);
 }
 
-.link:hover,
-.link:focus {
-  background-color: var(--current-color);
-  color: var(--current-color);
 
-  background-color: var(--main-light-color);
-}
+
+
+

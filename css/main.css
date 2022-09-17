@@ -189,6 +189,11 @@ li {
   /* padding для кликабельности */
   transition: color var(--transition-dur-and-func);
 }
+.list-header:hover, .list-header:focus {
+  background-color: var(--current-color);
+  color: var(--current-color);
+  background-color: var(--main-light-color);
+}
 
 .contacts-header .item + .item {
   margin-left: 50px;
@@ -210,13 +215,6 @@ li {
 .current-studio,
 .current-portfolio {
   color: var(--current-color);
-}
-
-.link:hover,
-.link:focus {
-  background-color: var(--current-color);
-  color: var(--current-color);
-  background-color: var(--main-light-color);
 }
 
 .hero-title {

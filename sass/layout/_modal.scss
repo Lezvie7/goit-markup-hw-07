@@ -76,29 +76,27 @@
   width: 16px;
   height: 15px;
   border: 2px solid var(--complementary-2-color);
-  /* border: 0.2px solid #ffffff; */
-  /* background: #2196f3; */
   border-radius: 2px;
   cursor: pointer;
   margin-right: 9px;
+
+  .contact-form-check:checked + & {
+    background-color: var(--current-color);
+    border: var(--current-color);
+  }
+
+  .contact-form-check:focus + & {
+    box-shadow: 0 0 0 2px var(--current-color);
+  }
 }
 
 .form-checkbox-won-icon {
   display: none;
   fill: var(--main-light-color);
-}
 
-.contact-form-check:checked + .form-checkbox-icon {
-  background-color: var(--current-color);
-  border: var(--current-color);
-}
-
-.contact-form-check:checked + .form-checkbox-icon .form-checkbox-won-icon {
-  display: block;
-}
-
-.contact-form-check:focus + .form-checkbox-icon {
-  box-shadow: 0 0 0 2px var(--current-color);
+  .contact-form-check:checked + .form-checkbox-icon & {
+    display: block;
+  }
 }
 
 .form-checkbox-link {

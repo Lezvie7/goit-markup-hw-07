@@ -692,29 +692,24 @@ li {
   width: 16px;
   height: 15px;
   border: 2px solid var(--complementary-2-color);
-  /* border: 0.2px solid #ffffff; */
-  /* background: #2196f3; */
   border-radius: 2px;
   cursor: pointer;
   margin-right: 9px;
+}
+.contact-form-check:checked + .form-checkbox-icon {
+  background-color: var(--current-color);
+  border: var(--current-color);
+}
+.contact-form-check:focus + .form-checkbox-icon {
+  box-shadow: 0 0 0 2px var(--current-color);
 }
 
 .form-checkbox-won-icon {
   display: none;
   fill: var(--main-light-color);
 }
-
-.contact-form-check:checked + .form-checkbox-icon {
-  background-color: var(--current-color);
-  border: var(--current-color);
-}
-
 .contact-form-check:checked + .form-checkbox-icon .form-checkbox-won-icon {
   display: block;
-}
-
-.contact-form-check:focus + .form-checkbox-icon {
-  box-shadow: 0 0 0 2px var(--current-color);
 }
 
 .form-checkbox-link {
@@ -833,12 +828,6 @@ li {
   padding-bottom: 94px;
 }
 
-.gallery-link:hover,
-.gallery-link:focus {
-  display: block;
-  box-shadow: 0px 1px 1px var(--shadow-cards-gallery-12), 0px 4px 4px var(--shadow-cards-gallery-06), 1px 4px 6px var(--shadow-cards-gallery-16);
-}
-
 /* Overley карточки портфолио */
 .gallery-overley-box {
   position: relative;
@@ -863,9 +852,7 @@ li {
   background-color: var(--gallery-overley-text);
   color: var(--main-light-color);
 }
-
-.gallery-link:hover .gallery-overley-text,
-.gallery-link:focus .gallery-overley-text {
+.gallery-link:hover .gallery-overley-text, .gallery-link:focus .gallery-overley-text {
   transform: translateY(0%);
 }
 
@@ -888,4 +875,10 @@ li {
   font-size: 16px;
   line-height: 1.8;
   color: var(--secondary-color);
+}
+
+.gallery-link:hover,
+.gallery-link:focus {
+  display: block;
+  box-shadow: 0px 1px 1px var(--shadow-cards-gallery-12), 0px 4px 4px var(--shadow-cards-gallery-06), 1px 4px 6px var(--shadow-cards-gallery-16);
 }/*# sourceMappingURL=main.css.map */

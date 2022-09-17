@@ -4,7 +4,7 @@
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.box-advantages {
+.our-features__box-advantages {
   display: flex;
   width: 270px;
   height: 120px;
@@ -18,12 +18,12 @@
   align-items: center;
 }
 
-.box-advantages-icon {
+.our-features__box-advantages-icon {
   width: 70px;
   height: 70px;
 }
 
-.section-title {
+.our-features__section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -32,7 +32,7 @@
   margin-bottom: 10px;
 }
 
-.section-paragraph {
+.our-features__section-paragraph {
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-color);

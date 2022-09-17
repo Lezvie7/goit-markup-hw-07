@@ -194,13 +194,6 @@ li {
   margin-left: 50px;
 }
 
-.link:hover,
-.link:focus {
-  background-color: var(--current-color);
-  color: var(--current-color);
-  background-color: var(--main-light-color);
-}
-
 .current-studio::before,
 .current-portfolio::before {
   position: absolute;
